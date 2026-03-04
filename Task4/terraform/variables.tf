@@ -34,6 +34,10 @@ variable "subnets" {
       zone = "ru-central1-a"
       cidr = "192.168.20.0/24"
     }
+    "db-subnet-b" = {
+      zone = "ru-central1-b"
+      cidr = "192.168.21.0/24"
+    }
   }
 }
 
@@ -64,4 +68,10 @@ variable "bucket_name" {
 variable "ssh_public_key_path" {
   type    = string
   default = "~/.ssh/id_rsa.pub"
+}
+
+variable "enable_auto_cleanup" {
+  description = "Автоматически удалять ресурсы при ошибках"
+  type        = bool
+  default     = true
 }

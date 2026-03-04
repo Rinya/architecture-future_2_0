@@ -1,0 +1,5 @@
+generated_ssh_key.pem
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform*
