@@ -1,18 +1,9 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Страница-1" id="SwMObJUB4jKj2F2DYxa0">
-    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="scenario2_zone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#ff6b6b;fillColor=#ffe6e6;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=10;" value="Операционная работа клиники&lt;br&gt;(Приём пациентов, оплата)" vertex="1">
-          <mxGeometry height="520" width="360" x="380" y="920" as="geometry" />
-        </mxCell>
-        <mxCell id="scenario3_zone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#8a2be2;fillColor=#f0e6ff;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=10;" value="Разработка и обучение ИИ&lt;br&gt;(на изолированных данных)" vertex="1">
-          <mxGeometry height="300" width="360" x="780" y="1160" as="geometry" />
-        </mxCell>
-        <mxCell id="scenario1_zone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#00aaff;fillColor=#e6f7ff;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=15;" value="Самообслуживание аналитиков&lt;br&gt;(Построение отчётов)" vertex="1">
-          <mxGeometry height="540" width="360" x="380" y="20" as="geometry" />
-        </mxCell>
         <mxCell id="kxAqxqTVOrGOTbRSYccN-18" edge="1" parent="1" source="kxAqxqTVOrGOTbRSYccN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="kxAqxqTVOrGOTbRSYccN-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="850" y="1060" as="targetPoint" />
@@ -129,7 +120,7 @@
         </mxCell>
         <object placeholders="1" c4Name="ИС &quot;Будущее 2.0&quot;" c4Type="SystemScopeBoundary" c4Application="Software System" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="kxAqxqTVOrGOTbRSYccN-37">
           <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
-            <mxGeometry height="1500" width="1190" x="330" y="10" as="geometry" />
+            <mxGeometry height="1400" width="1120" x="400" y="80" as="geometry" />
           </mxCell>
         </object>
         <mxCell id="new_edge_1" edge="1" parent="1" source="kxAqxqTVOrGOTbRSYccN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kxAqxqTVOrGOTbRSYccN-19">
@@ -193,8 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="new_edge_12" edge="1" parent="1" source="kxAqxqTVOrGOTbRSYccN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kxAqxqTVOrGOTbRSYccN-10" value="Запросы (агрегированные данные)">
-          <mxGeometry relative="1" x="0.6" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -203,35 +193,56 @@
             <mxPoint x="850" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="scenario1_annotation_portal" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Точка входа для выбора&lt;br&gt;и заказа данных&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="390" y="70" as="geometry" />
+		
+		<!-- Сценарий 1: Самообслуживание аналитиков -->
+        <mxCell id="scenario1_zone" value="&lt;b&gt;СЦЕНАРИЙ 1:&lt;/b&gt;&lt;br&gt;Самообслуживание аналитиков&lt;br&gt;(Построение отчётов)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#00aaff;fillColor=#e6f7ff;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="360" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="scenario1_annotation_bi" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Инструмент для&lt;br&gt;визуализации&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="445" y="320" as="geometry" />
+
+        <!-- Сценарий 2: Операционная работа клиники -->
+        <mxCell id="scenario2_zone" value="&lt;b&gt;СЦЕНАРИЙ 2:&lt;/b&gt;&lt;br&gt;Операционная работа клиники&lt;br&gt;(Приём пациентов, оплата)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#ff6b6b;fillColor=#ffe6e6;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="920" width="360" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="scenario1_annotation_dwh" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Источник готовых&lt;br&gt;аналитических данных&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="885" y="320" as="geometry" />
+
+        <!-- Сценарий 3: Разработка и обучение ИИ -->
+        <mxCell id="scenario3_zone" value="&lt;b&gt;СЦЕНАРИЙ 3:&lt;/b&gt;&lt;br&gt;Разработка и обучение ИИ&lt;br&gt;(на изолированных данных)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;align=center;verticalAlign=top;strokeColor=#8a2be2;fillColor=#f0e6ff;strokeWidth=2;dashed=1;dashPattern=1 1;opacity=50;arcSize=10;" vertex="1" parent="1">
+          <mxGeometry x="780" y="1160" width="360" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="scenario2_annotation_interface" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Интерфейс оператора&lt;br&gt;для ввода данных&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="400" y="1150" as="geometry" />
+
+        <!-- ДОБАВЛЕНИЕ: Аннотации-связки, объясняющие роль компонента в сценарии -->
+        <mxCell id="scenario1_annotation_portal" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Точка входа для выбора&lt;br&gt;и заказа данных&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="445" y="140" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="scenario2_annotation_fintech" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Обработка платежей&lt;br&gt;и транзакций&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="885" y="940" as="geometry" />
+        <mxCell id="scenario1_annotation_bi" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Инструмент для&lt;br&gt;визуализации&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="445" y="320" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="scenario3_annotation_ai_services" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Запуск моделей,&lt;br&gt;получение прогнозов&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="410" y="1370" as="geometry" />
+        <mxCell id="scenario1_annotation_dwh" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Источник готовых&lt;br&gt;аналитических данных&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="885" y="320" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="scenario3_annotation_raw_data" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Безопасное хранилище&lt;br&gt;для обучения моделей&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="100" x="785" y="1390" as="geometry" />
+
+        <mxCell id="scenario2_annotation_interface" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Интерфейс оператора&lt;br&gt;для ввода данных&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1000" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow1_label" parent="1" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;b&gt;(1) Выбор данных&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="80" x="310" y="225" as="geometry" />
+        <mxCell id="scenario2_annotation_fintech" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Обработка платежей&lt;br&gt;и транзакций&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="885" y="940" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow2_label" parent="1" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;b&gt;(2) Запрос отчёта&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="80" x="560" y="300" as="geometry" />
+
+        <mxCell id="scenario3_annotation_ai_services" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Запуск моделей,&lt;br&gt;получение прогнозов&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="445" y="1240" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="flow3_label" parent="1" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="&lt;b&gt;(3) Аналитический запрос&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="100" x="727" y="430" as="geometry" />
+        <mxCell id="scenario3_annotation_raw_data" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;b&gt;Роль в сценарии:&lt;/b&gt;&lt;br&gt;Безопасное хранилище&lt;br&gt;для обучения моделей&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="845" y="1240" width="100" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- ДОБАВЛЕНИЕ: Нумерация потоков данных для наглядности -->
+        <mxCell id="flow1_label" value="&lt;b&gt;(1) Выбор данных&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="flow2_label" value="&lt;b&gt;(2) Запрос отчёта&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="300" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="flow3_label" value="&lt;b&gt;(3) Аналитический запрос&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#e6f7ff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="760" y="420" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
